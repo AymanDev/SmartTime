@@ -1,11 +1,16 @@
-# React + Webpack + TypeScript + Semantic UI
+# Smart Time
+###### React + Webpack + TypeScript + Semantic UI
 
 ## Getting started  
 1. Install all dependencies `npm install`
 2. Profit!
 
 ## Starting in development environment
-Using command `npm run start` will start webpack development server with hot reload.
+1. Start simple server using command `npm run start`
+2. Start bundling with webpack by using command `npm run build`
 
 ## Building for production
-Using command `npm run build` will start webpack bundler. After few seconds/minutes project will be bundled in `/dist` folder.
+##### !!! WARNING !!!
+In `webpack.config.js` output path changed depend on env mode. Change path for yours.
+
+1. Start bundling with webpack by using command `npm run build-prod`
