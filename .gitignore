@@ -74,3 +74,12 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+#MacOS Files
+.DS_Store
+
+#Build 
+dist/
+
+#WebStorm folders
+.idea/
